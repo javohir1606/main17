@@ -1,5 +1,5 @@
 import React from "react";
-import { request } from "../config/resquest";
+import { request } from "../../config/request";
 
 export const Messages = () => {
   const [data, setData] = React.useState([]);
