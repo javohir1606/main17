@@ -1,8 +1,9 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
-import { saveState } from "../config/storage";
-import { request } from "../config/request";
+import {request}  from "../../config/request";
+import { saveState } from "../../config/storage";
+
 
 export const Login = () => {
   const { handleSubmit, reset, register } = useForm();

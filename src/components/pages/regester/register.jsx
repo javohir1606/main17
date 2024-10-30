@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { request } from "../config/resquest";
+import { request } from "../../config/request";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
